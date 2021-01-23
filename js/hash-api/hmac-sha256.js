@@ -1,6 +1,6 @@
 /*!
- * Powered by uglifiyJS v2.6.1, Build by http://www.aizhan.club
- * build time: Sat Jan 23 2021 15:01:55 GMT+0800 (中国标准时间)
+ * Powered by uglifiyJS v2.6.1
+ * build time: Sat Jan 23 2021 15:01:55 GMT+0800
 */
 var CryptoJS = CryptoJS || function(t, e) {
     var r = {}, n = r.lib = {}, i = n.Base = function() {
