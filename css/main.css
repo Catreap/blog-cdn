@@ -1871,7 +1871,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #74874a;
+  background: #7570ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3061,4 +3061,32 @@ pre {
 }
 .highlight .gutter {
   display: none;
+}
+.hbe-input-label-shrink::after {
+  background: #3c9fff !important;
+}
+.hbe-input-field-shrink:focus + .hbe-input-label-shrink::after,
+.input--filled .hbe-input-label-shrink::after {
+  background: #3273dc !important;
+}
+.hbe-input-field-shrink:focus + .hbe-input-label-shrink .hbe-input-label-content-shrink,
+.input--filled .hbe-input-label-shrink .hbe-input-label-content-shrink {
+  color: #3273dc !important;
+  -webkit-transform: translate3d(0, 2.1em, 0) scale3d(0.655, 0.655, 1) !important;
+  -webkit-transform: translate3d(0, 2.1em, 0) scale3d(0.655, 0.655, 1) !important;
+  -moz-transform: translate3d(0, 2.1em, 0) scale3d(0.655, 0.655, 1) !important;
+  -ms-transform: translate3d(0, 2.1em, 0) scale3d(0.655, 0.655, 1) !important;
+  -o-transform: translate3d(0, 2.1em, 0) scale3d(0.655, 0.655, 1) !important;
+  transform: translate3d(0, 2.1em, 0) scale3d(0.655, 0.655, 1) !important;
+}
+.hbe-input-field-shrink {
+  color: rgba(255,255,255,0) !important;
+  padding: 0.8em 0 !important;
+}
+.hbe-input-field-shrink:focus {
+  color: #2c3e50 !important;
+  padding: 0.8em 0 !important;
+}
+label.hbe.hbe-input-label.hbe-input-label-shrink {
+  line-height: 1.6 !important;
 }
